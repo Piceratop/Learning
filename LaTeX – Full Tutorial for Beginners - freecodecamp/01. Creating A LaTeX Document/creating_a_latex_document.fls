@@ -1,6 +1,6 @@
-PWD c:\Programming\Learning\LaTeX – Full Tutorial for Beginners - freecodecamp
+PWD c:\Programming\Learning\LaTeX – Full Tutorial for Beginners - freecodecamp\Creating A LaTeX Document
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Programming\Learning\LaTeX – Full Tutorial for Beginners - freecodecamp\creating_a_latex_document.tex
+INPUT c:\Programming\Learning\LaTeX – Full Tutorial for Beginners - freecodecamp\Creating A LaTeX Document\creating_a_latex_document.tex
 OUTPUT creating_a_latex_document.log
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
