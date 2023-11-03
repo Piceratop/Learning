@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.15)  29 OCT 2023 13:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=latex 2023.11.3)  3 NOV 2023 10:48
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Programming/Learning/LaTeX – Full Tutorial for Beginners - freecodecamp/02. Common Mathematical Notation/common.tex"
-(c:/Programming/Learning/LaTeX – Full Tutorial for Beginners - freecodecamp/02. Common Mathematical Notation/common.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-10-10>
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
+e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\g
+@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\doc
+umentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname te
+x4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HC
+ode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  common.tex
+(common.tex
 (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
@@ -23,10 +25,275 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count193
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\tex4ht.sty
+version 2023-10-04-13:17
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks17
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\tex4ht.4ht
+version 2022-07-05-14:37
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\tex4ht.sty
+version 2023-10-04-13:17
+
+l.870 --- TeX4ht warning --- nonprimitive \everypar ---
+--- needs --- tex4ht common ---
+\tmp:cnt=\count193
+\openout15 = `common.tmp'.
+
+(common.tmp)
+\tmp:dim=\skip50
+--------------------------------------
+--- Note --- for XML code, use the command line option `xml' or `xhtml'
+--------------------------------------
+ (common.xref)
+\:refout=\write3
+\openout3 = `common.xref'.
+
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+--------------------------------------
+--- Note --- for alternative charset, use the command line option `charset=...'
+
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: html
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+)
+\:tokwrite=\toks18
+\:tokpage=\toks19
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `common.4ct'.
+
+\:tocout=\write4
+\openout4 = `common.4tc'.
+
+ (common.4tc)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\latex.4ht
+version 2023-10-02-13:11
+LaTeX Info: Redefining \_ on input line 179.
+LaTeX Info: Redefining \begin on input line 597.
+LaTeX Info: Redefining \end on input line 645.
+LaTeX Info: Redefining \, on input line 807.
+LaTeX Info: Redefining \; on input line 808.
+LaTeX Info: Redefining \! on input line 809.
+LaTeX Info: Redefining \: on input line 810.
+LaTeX Info: Redefining \> on input line 811.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+--------------------------------------
+--- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ environments, use the command line option `pic
+-m' (not recommended!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
+he command line option `pic-m+' (not safe!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\fontmath.4ht
+version 2022-10-25-13:59
+
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+)) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\article.4ht
+version 2023-04-10-13:46
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `
+1', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+)) (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4.4ht
+version 2023-10-13-14:16
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\html4-math.4ht
+version 2022-10-25-13:59
+))
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/generic/tex4ht\usepackage.4ht
+version 2023-07-25-12:42
+)
+(C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-dvi
+ps.def
+File: l3backend-dvips.def 2023-10-10 L3 backend support: dvips
 \l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count194
+\l__pdf_backend_content_box=\box52
+\l__pdf_backend_model_box=\box53
+\g__pdf_backend_annotation_int=\count195
+\g__pdf_backend_link_int=\count196
+\g__pdf_backend_link_sf_int=\count197
 ) (common.aux)
 \openout1 = `common.aux'.
 
@@ -44,35 +311,53 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+--- file common.css ---
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
+l. 6 Writing common.idv[1] (common0x.png)
+l. 7 Writing common.idv[2] (common1x.png)
+l. 8 Writing common.idv[3] (common2x.png)
+l. 9 Writing common.idv[4] (common3x.png)
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-[1
-
-{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (common.aux)
+]
+l. 11 Writing common.idv[5] (common4x.png)
+l. 12 Writing common.idv[6] (common5x.png)
+l. 13 Writing common.idv[7] (common6x.png)
+l. 14 Writing common.idv[8] (common7x.png)
+ [2]
+l. 58 Writing common.idv[9] (common8x.png)
+l. 59 Writing common.idv[10] (common9x.png)
+l. 60 Writing common.idv[11] (common10x.png)
+ [3]
+l. 61 Writing common.idv[12] (common11x.png)
+l. 62 Writing common.idv[13] (common12x.png)
+l. 66 Writing common.idv[14] (common13x.png)
+l. 67 Writing common.idv[15] (common14x.png)
+ [4]
+l. 68 Writing common.idv[16] (common15x.png)
+l. 72 Writing common.idv[17] (common16x.png)
+l. 73 Writing common.idv[18] (common17x.png)
+l. 74 Writing common.idv[19] (common18x.png)
+ [5]
+l. 78 Writing common.idv[20] (common19x.png)
+l. 79 Writing common.idv[21] (common20x.png)
+l. 80 Writing common.idv[22] (common21x.png)
+ [6] (common.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 432 strings out of 474824
- 9047 string characters out of 5750976
- 1926043 words of memory out of 5000000
- 22460 multiletter control sequences out of 15000+600000
+ 3803 strings out of 474825
+ 47444 string characters out of 5751003
+ 1925040 words of memory out of 5000000
+ 25773 multiletter control sequences out of 15000+600000
  558069 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,5n,50p,254b,102s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on common.pdf (1 page, 96780 bytes).
-PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39i,6n,54p,786b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on common.dvi (6 pages, 19020 bytes).
