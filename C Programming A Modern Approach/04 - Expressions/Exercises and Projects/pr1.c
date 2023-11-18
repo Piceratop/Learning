@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int n;
     printf("Enter a two-digit number: ");
     scanf("%d", &n);
