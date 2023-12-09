@@ -2,9 +2,16 @@
 
 int main() {
     int hour, minute;
-    printf("Enter a 24-hour time: ");
+    char ch;
+    printf("Enter a 12-hour time: ");
     scanf("%d : %d", &hour, &minute);
     int time_from_midnight = hour * 60 + minute;
+    do {
+        ch = getchar();
+        if (ch == 'p' || ch == 'P') {
+            time_from_midnight += 720;
+        }
+    } while (ch != '\n');
     if (time_from_midnight < 173 || time_from_midnight >= 1223) {
         printf("Closet departure time is 9:45 p.m., arriving at 11.58 p.m.");
     } else if (time_from_midnight < 532) {
