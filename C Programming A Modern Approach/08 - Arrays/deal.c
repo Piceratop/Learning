@@ -20,7 +20,13 @@ int main() {
    while (num_cards > 0) {
       suit = rand() % NUM_SUITS; /* Pick a random suit*/
       rank = rand() % NUM_RANKS; /* Pick a random rank*/
-
+      if (!in_hand[suit][rank]) {
+         in_hand[suit][rank] = true;
+         num_cards--;
+         printf(" %c%c", suit_code[suit], rank_code[rank]);
+      }
    }
+   printf("\n");
+
    return 0;
 }
