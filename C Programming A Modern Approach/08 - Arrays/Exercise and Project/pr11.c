@@ -1,15 +1,44 @@
-#include <ctype.h>
 #include <stdio.h>
 
-int main() {
-   char cur_letter;
-   int sum_point = 0, letter_valus[] = { 1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10 };
-   printf("Enter a word: ");
-   while ((cur_letter = getchar()) != '\n') {
-      if (isalpha(cur_letter)) {
-         sum_point += letter_valus[tolower(cur_letter) - 'a'];
+int main(void) {
+   printf("Enter phone number: ");
+   char ch, phone_number[100];
+   int i = 0;
+   while ((ch = getchar()) != '\n') {
+      phone_number[i++] = ch;
+   }
+
+   printf("In numeric form: ");
+   for (int j = 0; j < i; j++) {
+      switch (phone_number[j]) {
+      case 'A': case 'B': case 'C':
+         printf("2");
+         break;
+      case 'D': case 'E': case 'F':
+         printf("3");
+         break;
+      case 'G': case 'H': case 'I':
+         printf("4");
+         break;
+      case 'J': case 'K': case 'L':
+         printf("5");
+         break;
+      case 'M': case 'N': case 'O':
+         printf("6");
+         break;
+      case 'P': case 'Q': case 'R': case 'S':
+         printf("7");
+         break;
+      case 'T': case 'U': case 'V':
+         printf("8");
+         break;
+      case 'W': case 'X': case 'Y': case 'Z':
+         printf("9");
+         break;
+      default:
+         printf("%c", phone_number[j]);
       }
    }
-   printf("Scrabble value: %d\n", sum_point);
+
    return 0;
 }

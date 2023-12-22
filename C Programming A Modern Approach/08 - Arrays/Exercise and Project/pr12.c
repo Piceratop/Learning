@@ -1,18 +1,15 @@
+#include <ctype.h>
 #include <stdio.h>
 
 int main() {
-   printf("Enter a first and last name: ");
-   char initial, ch, last_name[100];
-   initial = getchar();
-   while ((ch = getchar()) != ' ');
-   int i = 0;
-   while ((ch = getchar()) != '\n') {
-      last_name[i++] = ch;
+   char cur_letter;
+   int sum_point = 0, letter_valus[] = { 1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10 };
+   printf("Enter a word: ");
+   while ((cur_letter = getchar()) != '\n') {
+      if (isalpha(cur_letter)) {
+         sum_point += letter_valus[tolower(cur_letter) - 'a'];
+      }
    }
-   printf("You entered the name: ");
-   for (int j = 0; j < i; j++) {
-      printf("%c", last_name[j]);
-   }
-   printf(", %c.", initial);
+   printf("Scrabble value: %d\n", sum_point);
    return 0;
 }
