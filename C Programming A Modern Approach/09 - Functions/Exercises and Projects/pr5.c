@@ -16,32 +16,40 @@ int main(void) {
       return 1;
    }
 
-   int magic[size][size];
-   for (int i = 0; i < size; i++) {
-      for (int j = 0; j < size; j++) {
-         magic[i][j] = 0;
+   char magic[size][size];
+
+   create_magic_square(size, magic);
+   print_magic_square(size, magic);
+
+   return 0;
+}
+
+void create_magic_square(int n, char magic_square[n][n]) {
+   for (int i = 0; i < n; i++) {
+      for (int j = 0; j < n; j++) {
+         magic_square[i][j] = 0;
       }
    }
 
-   int row = 0, col = size / 2;
+   int row = 0, col = n / 2;
 
-   for (int num = 1; num <= size * size; num++) {
-      magic[row][col] = num;
+   for (int num = 1; num <= n * n; num++) {
+      magic_square[row][col] = num;
       int a = row, b = col;
-      row = (row - 1 + size) % size;
-      col = (col + 1) % size;
-      if (magic[row][col] != 0) {
-         row = (a + 1) % size;
+      row = (row - 1 + n) % n;
+      col = (col + 1) % n;
+      if (magic_square[row][col] != 0) {
+         row = (a + 1) % n;
          col = b;
       }
    }
+}
 
-   for (row = 0; row < size; row++) {
-      for (col = 0; col < size; col++) {
-         printf("%5d", magic[row][col]);
+void print_magic_square(int n, char magic_square[n][n]) {
+   for (int i = 0; i < n; i++) {
+      for (int j = 0; j < n; j++) {
+         printf("%5d", magic_square[i][j]);
       }
       printf("\n");
    }
-
-   return 0;
 }
