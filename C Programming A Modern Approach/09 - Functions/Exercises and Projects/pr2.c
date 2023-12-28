@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-int main() {
-   float income, tax;
-   printf("Enter taxable income: ");
-   scanf("%f", &income);
+float calculate_tax(float income) {
+   float tax;
    if (income < 750.00f) {
       tax = income * 0.01f;
    } else if (income < 2250.00f) {
@@ -17,6 +15,14 @@ int main() {
    } else {
       tax = 230.0f + (income - 7000.00f) * 0.06f;
    }
+   return tax;
+}
+
+int main() {
+   float income, tax;
+   printf("Enter taxable income: ");
+   scanf("%f", &income);
+   tax = calculate_tax(income);
    printf("Tax: $%.2f\n", tax);
    return 0;
 }
