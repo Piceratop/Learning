@@ -1,31 +1,34 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-#define MAX_SENTENCE_LENGTH 30
-#define MAX_WORD_LENGTH 20
+double compute_average_word_length(const char* sentence);
 
-int main(void) {
+int main() {
+   char sentence[100];
    printf("Enter a sentence: ");
-   char word[MAX_SENTENCE_LENGTH][MAX_WORD_LENGTH + 1];
-   int i = 0, j = 0;
-   char ch, punctuation_mark;
-   while (1) {
-      ch = getchar();
-      if (ch == ' ') {
-         word[j][i] = '\0';
-         i = 0;
-         j++;
-      } else if (ch == '.' || ch == '!' || ch == '?') {
-         word[j][i] = '\0';
-         punctuation_mark = ch;
-         break;
-      } else if (i < MAX_WORD_LENGTH - 1)
-         word[j][i++] = ch;
-   }
-
-   printf("Reversal of the sentence: ");
-   for (;j >= 0; j--) {
-      printf("%s ", word[j]);
-   }
-   printf("\b%c\n", punctuation_mark);
+   gets(sentence);
+   printf("Average word length: %.1f\n", compute_average_word_length(sentence));
    return 0;
+}
+
+double compute_average_word_length(const char* sentence) {
+   int word_count = 0;
+   int character_count = 0;
+   bool is_in_word = false;
+   while (*sentence) {
+      if (*sentence == ' ') {
+         is_in_word = false;
+      } else {
+         if (!is_in_word) {
+            is_in_word = true;
+            word_count++;
+         }
+         character_count++;
+      }
+      sentence++;
+   }
+   if (word_count == 0)
+      return 0;
+
+   return (double)character_count / word_count;
 }

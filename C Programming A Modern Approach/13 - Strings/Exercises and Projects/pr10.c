@@ -1,34 +1,42 @@
 #include <stdio.h>
-#include <stdbool.h>
+#include <string.h>
 
-double compute_average_word_length(const char* sentence);
+int read_line(char str[], int n);
+void reverse_name(char* name);
 
 int main() {
-   char sentence[100];
-   printf("Enter a sentence: ");
-   gets(sentence);
-   printf("Average word length: %.1f\n", compute_average_word_length(sentence));
+   printf("Enter a first and last name: ");
+   char full_name[100];
+   read_line(full_name, 100);
+   reverse_name(full_name);
+   printf("%s\n", full_name);
    return 0;
 }
 
-double compute_average_word_length(const char* sentence) {
-   int word_count = 0;
-   int character_count = 0;
-   bool is_in_word = false;
-   while (*sentence) {
-      if (*sentence == ' ') {
-         is_in_word = false;
-      } else {
-         if (!is_in_word) {
-            is_in_word = true;
-            word_count++;
-         }
-         character_count++;
-      }
-      sentence++;
-   }
-   if (word_count == 0)
-      return 0;
+int read_line(char str[], int n) {
+   int ch, i = 0;
 
-   return (double)character_count / word_count;
+   while ((ch = getchar()) != '\n')
+      if (i < n)
+         str[i++] = ch;
+   str[i] = '\0';
+   return i;
 }
+
+void reverse_name(char* name) {
+   int i, j;
+   for (i = 0; name[i] == ' '; i++);
+   char initial = name[i];
+   for (j = strlen(name) - 1; name[j] == ' '; j--);
+   name[j + 1] == '\0';
+   for (; name[j] != ' '; j--);
+   for (i = 0, j++; name[j]; i++, j++) {
+      name[i] = name[j];
+   }
+   name[i] = ',';
+   name[i + 1] = ' ';
+   name[i + 2] = initial;
+   name[i + 3] = '.';
+   name[i + 4] = '\0';
+}
+
