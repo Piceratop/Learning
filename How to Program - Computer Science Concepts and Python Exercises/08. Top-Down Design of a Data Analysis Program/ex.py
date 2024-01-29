@@ -12,11 +12,11 @@ for line in infile:
     date, h, l, r = line.split(",")
     lowtemp = int(l)
     hightemp = int(h)
+    rainfall = float(r)
     m, d, y = date.split("/")
     month = int(m)
     day = int(d)
     year = int(y)
-    rainfall = float(r)
     # Put data into list
     datalist.append([day, month, year, lowtemp, hightemp, rainfall])
 
@@ -41,6 +41,7 @@ maxsofar = -100
 numgooddates = 0
 sumofmin = 0
 sumofmax = 0
+num_rained_days = 0
 for singleday in gooddata:
     numgooddates += 1
     sumofmin += singleday[1]
@@ -49,10 +50,12 @@ for singleday in gooddata:
         minsofar = singleday[1]
     if singleday[2] > maxsofar:
         maxsofar = singleday[2]
-
+    if singleday[3] > 0:
+        num_rained_days += 1
 
 avglow = sumofmin / numgooddates
 avghigh = sumofmax / numgooddates
+rain_chance = num_rained_days / numgooddates
 
 ########## Present Results ##########
 
@@ -61,3 +64,4 @@ print("The lowest temperature on record was", minsofar)
 print("The highest temperature on record was", maxsofar)
 print("The average low temperature was", avglow)
 print("The average high temperature was", avghigh)
+print("The chance of rain was", rain_chance)
