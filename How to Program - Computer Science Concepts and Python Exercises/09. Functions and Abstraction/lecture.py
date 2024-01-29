@@ -6,4 +6,4 @@ def countchar(ch, teststring):
     return count
 
 
-print(countchar("e", "The quick brown fox jumps over the lazy dog"))
+print(countchar("e", "The quick brown fox jumps over the lazy dog."))
