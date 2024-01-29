@@ -6,6 +6,7 @@ type type##_max(type x, type y) { \
 }
 GENERIC_MAX(long)
 
+// Work around for special variable type with spaces
 typedef unsigned long ULONG;
 GENERIC_MAX(ULONG)
 
