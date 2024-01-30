@@ -4,7 +4,7 @@
 #define POLYNOMIAL(x) (-6 + (x) * (7 + (x) * (-1 + (x) * (-5 + (x) * (2 + (x) * 3)))))
 
 int main(void) {
-   int x = 3, y = 4, n = 5;
+   int x = 5, y = 4, n = 6;
    printf("%d\n", CHECK(x, y, n));
    printf("%d\n", MEDIAN(x, y, n));
    printf("%d\n", POLYNOMIAL(x));
