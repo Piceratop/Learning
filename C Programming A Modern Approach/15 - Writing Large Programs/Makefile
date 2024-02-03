@@ -1,11 +1,11 @@
-justify: justify.o word.o line.o
-	gcc -o justify justify.o word.o line.o
+justify: justify.obj word.obj line.obj
+	gcc -o justify justify.obj word.obj line.obj
 
-justify.o: justify.c word.h line.h
-	gcc -c justify.c
+justify.obj: justify.c word.h line.h
+	gcc -c justify.c -o justify.obj
 
-word.o: word.c word.h
-	gcc -c word.c
+word.obj: word.c word.h
+	gcc -c word.c -o word.obj
 
-line.o: line.c line.h
-	gcc -c line.c
+line.obj: line.c line.h
+	gcc -c line.c -o line.obj
