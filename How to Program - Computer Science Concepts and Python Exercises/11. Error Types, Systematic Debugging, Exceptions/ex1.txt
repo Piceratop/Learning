@@ -1,0 +1,10 @@
+When testing your code for the ticket pricing logic, you would want to use a range of ages that cover all the boundary conditions and typical cases. Here's a list of age values that would be good to use in your tests:
+
+Test with an age less than 3 (e.g., 0, 1, 2) to ensure the ticket is free.
+Test exactly at the boundary of 3 to verify that the child pricing starts correctly.
+Test with an age between 3 and 12 (e.g., 4, 7, 11) to ensure the child pricing is applied.
+Test exactly at the boundary of 12 to ensure that the child pricing still applies.
+Test just above the boundary (e.g., 13) to ensure that adult pricing starts correctly.
+Test with a typical adult age (e.g., 30) to ensure the adult pricing is applied generally.
+It may also be worthwhile to test with an edge case of a very high age (e.g., 90) to ensure there are no unexpected issues with unusually high input values.
+By testing these specific age values, you can ensure that your code handles all the different scenarios correctly.
