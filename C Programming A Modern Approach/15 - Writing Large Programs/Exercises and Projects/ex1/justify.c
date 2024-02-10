@@ -12,7 +12,7 @@ int main(void) {
 
    clear_line();
    for (;;) {
-      word_len = read_word(word, MAX_WORD_LEN + 1);;
+      word_len = read_word(word, MAX_WORD_LEN + 1);
       if (word_len == 0) {
          flush_line();
          return 0;

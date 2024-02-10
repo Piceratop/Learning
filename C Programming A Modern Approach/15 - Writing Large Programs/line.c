@@ -37,7 +37,7 @@ void write_line(void) {
       if (line[i] != ' ')
          putchar(line[i]);
       else {
-         spaces_to_insert = extra_spaces / (num_words + 1);
+         spaces_to_insert = extra_spaces / (num_words - 1);
          for (j = 1; j <= spaces_to_insert + 1; j++)
             putchar(' ');
          extra_spaces -= spaces_to_insert;
