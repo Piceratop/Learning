@@ -1,0 +1,36 @@
+With a screen editor you can scroll the page, move the cursor, delete lines, insert
+characters, and more, while seeing the results of your edits as you make them.
+Screen editors are very popular.
+
+Single Movements
+h, j, k, l
+
+Numeric Arguments: n * commands
+Eg: 4l
+
+Inline Movement
+0: Beginning of line
+$: End of line
+
+Text Blocks
+w: Move forward 1 word (punctuations count)
+W: Move forward 1 word (punctuations do not count)
+b, B: Move back 1 word
+
+Inserting New Text
+i: Insert to the left
+a: Insert to the right
+A: Insert at the end of the line
+c: Change text
+r: Replace single character
+
+Combination:
+cw: Change (c) a word(w)
+
+With a screen editor you can scroll the page,
+
+Lines:
+cc: Change the entire line
+C = c$
+
+Forms of vi command: (numeric)(command)(type object), or (command)(numeric)(type object)
