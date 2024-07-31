@@ -1,6 +1,8 @@
 {
   "files.associations": {
     "*.ejs": "html",
-    "010401B1.C": "cpp"
+    "010401B1.C": "cpp",
+    "010401B1 copy.C": "cpp",
+    "010401B2.C": "cpp"
   }
 }
